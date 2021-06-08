@@ -12,7 +12,6 @@ fetch('https://animechan.vercel.app/api/quotes/anime?title=naruto')
               content.innerText = quote
               card.appendChild(title)
               card.appendChild(content)
-              
             return card;
           }
           quotes.map(quote => {
