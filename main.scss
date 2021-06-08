@@ -1,0 +1,79 @@
+$textAlgn : center;
+$height : 458.5px;
+#main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+div{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 20rem;
+  margin-top: 2%;
+  flex-wrap: wrap;
+  border-radius: 15px;
+}
+h2{
+  color: gold;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+p{
+  color: peachpuff;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+div:nth-child(1) {
+    text-align: $textAlgn;
+    background-color: red;
+    height: $height;
+}
+div:nth-child(2){
+  text-align: $textAlgn;
+  background-color: sandybrown;
+  height: $height;
+  
+}
+  div:nth-child(3) {
+    text-align: $textAlgn;
+    background-color: darkcyan;
+    height: $height;
+  }
+  div:nth-child(4) {
+    text-align: $textAlgn;
+    background-color:black;
+    height: $height; 
+  }
+  div:nth-child(5) {
+    text-align: $textAlgn;
+    background-color:hotpink;
+    height: $height;
+  }
+  div:nth-child(6) {
+    text-align: $textAlgn;
+      background-color: grey;
+      height: $height;
+  }
+  div:nth-child(7) {
+    text-align: $textAlgn;
+    background-color:blue;
+    height: $height;
+  }
+  div:nth-child(8) {
+    text-align: $textAlgn;
+      background-color: brown;
+      height: $height;  
+  }
+  div:nth-child(9) {
+    text-align: $textAlgn;
+    background-color:darkviolet;
+    height: $height;
+  }
+  div:nth-child(10) {
+    text-align: $textAlgn;
+      background-color: seagreen;
+      height: $height;
+  }
+
+
+
+ 

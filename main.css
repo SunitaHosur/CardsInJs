@@ -1,0 +1,93 @@
+#main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+div {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 20rem;
+  margin-top: 2%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 15px;
+}
+
+h2 {
+  color: gold;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+p {
+  color: peachpuff;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+div:nth-child(1) {
+  text-align: center;
+  background-color: red;
+  height: 458.5px;
+}
+
+div:nth-child(2) {
+  text-align: center;
+  background-color: sandybrown;
+  height: 458.5px;
+}
+
+div:nth-child(3) {
+  text-align: center;
+  background-color: darkcyan;
+  height: 458.5px;
+}
+
+div:nth-child(4) {
+  text-align: center;
+  background-color: black;
+  height: 458.5px;
+}
+
+div:nth-child(5) {
+  text-align: center;
+  background-color: hotpink;
+  height: 458.5px;
+}
+
+div:nth-child(6) {
+  text-align: center;
+  background-color: grey;
+  height: 458.5px;
+}
+
+div:nth-child(7) {
+  text-align: center;
+  background-color: blue;
+  height: 458.5px;
+}
+
+div:nth-child(8) {
+  text-align: center;
+  background-color: brown;
+  height: 458.5px;
+}
+
+div:nth-child(9) {
+  text-align: center;
+  background-color: darkviolet;
+  height: 458.5px;
+}
+
+div:nth-child(10) {
+  text-align: center;
+  background-color: seagreen;
+  height: 458.5px;
+}
+/*# sourceMappingURL=main.css.map */
